@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.college2code{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(14, 108, 196);
+    font-size: 25px;
+
+}
+.flexbox{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 22px;
+    justify-content: space-between;
+    margin: 13px;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    padding: 7px; 
+    margin: 5px;
+    color: black;
+}
+ul li a:hover{
+    text-decoration: underline 2px solid rgb(14, 108, 196);
+    position: relative; 
+    top: -2px;
+    
+}
+hr{
+    color: rgb(255, 255, 255);
+}
+.course{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.course a{
+    margin-top: 7px;
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(14, 108, 196);
+    font-weight: 600;
+    font-size: x-large;
+}
+.course a:hover{
+   text-decoration: underline 2px solid rgb(14, 108, 196) ;
+   position: relative; 
+    top: -2px;
+}
+.shadow{
+    border-bottom: 1px solid #1f1209;
+    
+}
+.learn{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    width: 650px;
+   
+}
+.welcome{
+    text-align:left;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.welcome span{
+    color: purple;
+}
+.welcome h1{
+    font-size:40px;
+}
+.welcome p{
+    color: gray;
+    margin-top: 25px;
+    text-align: left;
+}
+
+/* this is footer */
+
+footer img{
+    width: 95px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 18px;
+}
+footer{
+display: flex;
+align-items: center;
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 13px;
+    font-size: 20px;
+    color: black
+}
+footer span{
+    color: gray;
+    font-size: 12px;
+}
+footer .social a{
+    align-items: center;
+  text-decoration: none;
+  
+  
+}
+.fa-facebook{
+background-color: #3b5993;
+color: white;
+padding: 20px;
+height: 4px;
+width: 4px;
+border-radius: 50%;
+
+}
+
+
+ /* This style for html */
+
+.html{
+    background-color: rgba(77, 195, 195, 0.495);
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.learnhtml{
+    padding: 50px;
+    padding-left: 300px;
+    text-align: center;
+   padding-bottom: 2px;
+}
+.learnhtml h1{
+    font-size:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.learnhtml p{
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.learnhtml a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    padding: 15px;
+    
+    border-radius: 40px;
+    opacity: 0.8;
+    
+}
+.learnhtml a:hover{
+    opacity: 1;
+}
+.htmlcode img{
+    width: 600px;
+    
+}
+.htmlcode{
+    padding: 75px;
+}
+
+/* This style for css*/
+
+.css{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 249, 99);
+}
+.learncss{
+    padding: 50px;
+    padding-left: 300px;
+    text-align: center;
+   padding-bottom: 2px;
+}
+.learncss h2{
+    font-size:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.learncss p{
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.learncss a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    padding: 15px;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.learncss a:hover{
+    opacity: 1;
+}
+.csscode{
+    padding: 75px;
+}
+.csscode img{
+    width: 600px;
+}
+ /* This style for java script */
+
+ .javascript{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2728;
+ }
+ .learnjavascript{
+    padding: 50px;
+    padding-left: 300px;
+    text-align: center;
+   padding-bottom: 2px;
+}
+.learnjavascript h3{
+    color: white;
+    font-size:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.learnjavascript p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.learnjavascript a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(180, 76, 15);
+    padding: 15px;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+.learnjavascript a:hover{
+    opacity: 1;
+}
+.javascriptcode{
+    padding: 75px;
+}
+.javascriptcode img{
+    width: 600px;
+}
+
+/* This is for background image */
+
+.background{
+   background-image:  url(img/background.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding: 250px;
+   overflow: hidden;
+   padding-top: 100px;
+   background-attachment: fixed;
+   text-align: left;
+}
+.background h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: rgba(19, 15, 15, 0.504);
+    
+}
+.background p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 35px;
+    color: rgba(19, 15, 15, 0.504);
+}
+.background a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+   padding: 20px;
+}
+.background a:hover{
+    text-decoration: underline 3px solid;
+    text-decoration-color: white;
+    position: relative;
+    top:-3px;
+    
+}

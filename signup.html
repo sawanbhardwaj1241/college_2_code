@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <title>sign up college2code</title>
+    <link rel="stylesheet" href="style.css">
+    <style>* {
+        box-sizing: border-box;
+    }
+    h2{font-size: 35px;
+    margin-bottom: 20px;}
+    .container #fill{
+        margin-bottom: 25px;
+    }
+    
+    .name ,.email ,.pass {
+    
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        background: white;
+        padding: 15px;
+        margin: 5px 0px 22px 0px;
+        display: inline-block;
+        border: none;
+        font-weight: bolder;
+        
+    
+    }
+    
+    .name ,.pass,.email:focus {
+    background-color: white;
+    }
+    
+    
+    
+    .container {
+    background-color: #ddd;
+    border: #ddd;
+    width: 650px;
+    padding: 25px 20px 25px 20px;
+    margin: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    }
+    
+    .btncancel,.btnsignup {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    border: none;
+    }
+    .btncancel{
+        background-color: #f44336;
+        color: white;
+    }
+    .btnsignup{
+        background-color: #08bd7b;
+        color: white;
+    }
+    .btncancel:hover{
+        background-color : rgb(248, 6, 6);
+        cursor: pointer;
+    }
+    .btnsignup:hover{
+        background-color: #026932d9;
+        cursor: pointer;
+    }
+    .button{
+        margin-top: 15px;
+    }
+    
+    .i{
+        text-align: center;
+    
+        margin: 80px 0px 0px 0px;
+    }
+    .i a{  text-decoration: none;
+    color:red;}
+    .term{text-decoration: none;}
+    .container{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="flexbox">
+
+                <a class="college2code" href="index.html">College 2 Code</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <!-- </ul> -->
+                    <!-- <div class="rightnavbar"> -->
+                    <!-- <ul> -->
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+                <!-- </div> -->
+            </div>
+            <hr>
+            <div class="course">
+                <a href="html.html">HTML</a>
+                <a href="css.html">CSS</a>
+                <a href="javascript.html">JAVA SCRIPT</a>
+
+            </div>
+            <hr class="shadow">
+        </nav>
+    </header>
+    <main>
+
+        <form action="">
+            <div class="container">
+            <h2>Sign Up</h2>
+            <p id="fill">Please fill in this form to create an account</p>
+            <p> Email<input type="email" class="email" name="email" id="email" placeholder="abcd@1234.gmail.com"
+                    required>
+            </p>
+            <p>Password <input type="password" class="pass" name="password" id="password"
+                    placeholder="Must be atleast 6 character" required></p>
+            <p>
+
+                Name<input type="text" class="name" name="name" id="name" placeholder=" Full Name" required>
+            </p>
+            <p>By signing up, you agree to our <a href="term.html" class="term">Terms and Conditions.</a>
+            </p>
+            <div class="button">
+                <button type="cancel" class="btncancel">Cancel</button>
+                <button type="submit" class="btnsignup">Sign Up </button>
+            </div>
+
+            <p class="i"> Already registered? <a href="login.html">Login</a></p>
+
+
+
+            </div>
+        </form>
+
+
+    </main>
+
+    <footer>
+       
+        <img src="img/logo.png" alt="logo">
+        <p> College 2 Code <span> | Copyright 2022 College2Code.com </span></p>
+        
+        
+    </footer>
+</body>
+
+</html>
